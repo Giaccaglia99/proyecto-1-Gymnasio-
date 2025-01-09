@@ -1,61 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="icon" href="/img/logo.png.png">
-    <link rel="stylesheet" href="/frontend/styles.css">
+    <link rel="stylesheet" href="./stylesprincipalpage.css">
 </head>
 <body>
-    <header id="header">
-        <h1 class="titulo"> Tincopa GYM Center</h1>
-        <nav class="header_nav">
-            <ul class="nav_list">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./login.html">Membresia</a></li>
-                <li><a href="./registro.html">Registrate</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="section01">
-        <h3 class="section01__container-title">Tincopa GYM</h3>
-        <h1 class="section01__title">ENTRENA CON NOSOTROS</h1>
-        <button id="boton-asociate" class="section01__btn">ASOCIATE AHORA</button>
-    </section>
-    <section class="section02">
-        <H1 class="section02__title">Mira y conoce nuestros horarios de apertura y cierre</H1>
-        <button id="boton-horarios" class="section02__btn">Horarios</button>
+    <div>
+        <h1 class="titulo_principal">TINCOPA GYM CENTER</h1>
+    </div>
+    <div>
+        <a id="botonInicio" class="button" href="./inicio.html">IR AL INICIO</a>
+    </div>
 
-        <div class="modal-overlay" id="modal">
-            <div class="modal-content">
-                <h2>HORARIOS</h2>
-                <ul>
-                    <h3>Por la Mañana</h3>
-                    <li>Lunes - Viernes: 08:00 AM - 12:00 PM</li>
-                    <li>Sabado: 08:00 AM - 12:00 PM</li>
-                    <h3>Por la Tarde</h3>
-                    <li>Lunes - Viernes: 15:00 PM - 23:00 PM</li>
-                    <li>Sabado: Cerrado</li>
-                </ul>
-                <button class="close-btn" onclick="closeModal()">Cerrar</button>
-            </div>
-        </div>        
-    </section>
-    <section class="section03">
-        <h1 class="section03__title">MIRA TU RUTINA</h1>
-        <a class="section03__link" href=".">CLICK AQUI</a>
-    </section>
-    <section class="section04">
-        <h1 class="section04__title">SOMOS UN EQUIPO</h1>
-        <p class="section04__text"> Si queres mejorar tu estado físico, imagen y calidad de vida te ofrecemos un equipo de profesionales expertos en deporte; clases de diferentes disciplinas y en variados horarios; una infraestructura amplia y cómoda para tu entrenamiento; y equipamiento de excelencia. Desde que abrimos nuestras puertas nos hemos preocupado de que nuestros socios mejoren su condición física en un grato ambiente y con una asesoría personalizada.</p>
-    </section>
-
-    <footer class="footer">&copy; 2025 TINCOPA GYM</footer>
-
-    <script src="app.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
