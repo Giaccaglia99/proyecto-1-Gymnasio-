@@ -1,0 +1,21 @@
+body {
+    background-image: url(../img/pesashd.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo_principal{
+    color: rgb(255 , 81 ,0);
+}
+.button {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
