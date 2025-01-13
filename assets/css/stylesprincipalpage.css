@@ -1,5 +1,5 @@
 body {
-    background-image: url(./img/pesashd.jpg);
+    background-image: url(../img/fondo-pesas.avif);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -15,7 +15,7 @@ body {
 .button {
     padding: 10px;
     text-decoration: none;
-    color: white;
+    color: white; 
     background-color: black;
     border-radius: 10px;
 }
