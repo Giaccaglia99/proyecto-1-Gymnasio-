@@ -14,7 +14,6 @@
             <ul class="nav_list">
                 <li><a href="../Inicio/index.html">Inicio</a></li>
                 <li><a href="../productos/index.html">Productos</a></li>
-                <li><a href="../contacto/index.html">Contacto</a></li>
                 <li><a href="../servicios/index.html">Servicios</a></li>
                 <li><a href="../login/index.html">Membresia</a></li>
                 <li><a href="../registro/index.html">Registrate</a></li>
@@ -25,19 +24,10 @@
         <h1 class="form_titulo">Crear una cuenta</h1>
         <form class="form" action="../registro.php" method="POST">
             <ul class="form_ul"> 
-                <div class="username">
-                    <h3 class="titulos">Nombre de usuario</h2>        
-                    <input type="text" name="username" placeholder="Nombre de usuario" required>
-                </div>
-                <div class="email"> 
-                    <h3 class="titulos">Correo electronico</h3>
-                    <input type="email" name="email" placeholder="Correo electrónico" required>
-                </div>
-                <div class="contraseña">
-                    <h3 class="titulos">Contraseña</h3>
-                    <input type="password" name="password" placeholder="Contraseña" required>
-                </div>
-                <button class="form_button" type="submit">Registrarse</button>
+                    <input class="sesion_input" style="padding: 10px;" type="text" name="username" placeholder="Nombre de usuario" required>
+                    <input class="sesion_input" style="padding: 10px;" type="email" name="email" placeholder="Correo electrónico" required>
+                    <input class="sesion_input" style="padding: 10px;" type="password" name="password" placeholder="Contraseña" required>
+                    <button class="form_button" type="submit">Registrarse</button>
             </ul>
         </form>            
     <footer class="footer">&copy; 2025 TINCOPA GYM</footer>
