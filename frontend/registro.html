@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="../img/logo.png.png">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header id="header">
+        <h1 class="titulo"> Tincopa GYM Center</h1>
+        <nav class="header_nav">
+            <ul class="nav_list">
+                <li><a href="./inicio.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./login.html">Membresia</a></li>
+                <li><a href="./registro.html">Registrate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section_form" id="section">
+        <h1 class="form_titulo">Crear una cuenta</h1>
+        <form  id="form" class="form" action="../registro.php" method="POST">
+            <ul class="form_ul"> 
+                    <input class="sesion_input" style="padding: 10px;" type="text" id="name" name="username" placeholder="Nombre de usuario" required>
+                    <input class="sesion_input" style="padding: 10px;" type="email" id="e-mail" name="email" placeholder="Correo electrónico" required>
+                    <input class="sesion_input" style="padding: 10px;" type="password" id="contraseña" name="password" placeholder="Contraseña" required>
+                    <input class="sesion_input" style="padding: 10px;" type="password" id="confirm_password" name="confirm_password" required placeholder="Confirme la contraseña">
+                    <button class="form_button" type="submit">Registrarse</button>
+            </ul>
+        </form>            
+    <footer class="footer">&copy; 2025 TINCOPA GYM</footer>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
