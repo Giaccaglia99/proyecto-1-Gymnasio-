@@ -20,12 +20,12 @@
             </ul>
         </nav>
     </header>
-    <section class="section_form" id="section">
+    <section class="section_form"  id="section">
         <h1 class="form_titulo">Crear una cuenta</h1>
-        <form  id="form" class="form" action="../registro.php" method="POST">
+        <form  id="form" action="../backend/registro.php" class="form" method="POST">
             <ul class="form_ul"> 
                     <input class="sesion_input" style="padding: 10px;" type="text" id="name" name="username" placeholder="Nombre de usuario" required>
-                    <input class="sesion_input" style="padding: 10px;" type="email" id="e-mail" name="email" placeholder="Correo electrónico" required>
+                    <input class="sesion_input" style="padding: 10px;" type="email" id="email" name="email" placeholder="Correo electrónico" required>
                     <input class="sesion_input" style="padding: 10px;" type="password" id="contraseña" name="password" placeholder="Contraseña" required>
                     <input class="sesion_input" style="padding: 10px;" type="password" id="confirm_password" name="confirm_password" required placeholder="Confirme la contraseña">
                     <button class="form_button" type="submit">Registrarse</button>
@@ -33,7 +33,7 @@
         </form>            
     <footer class="footer">&copy; 2025 TINCOPA GYM</footer>
 
-    <script src="./script.js"></script>
+    <script src="./registro.js"></script>
 
 </body>
 </html>

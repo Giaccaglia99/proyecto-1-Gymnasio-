@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: rgb(255, 81, 0);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.titulo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.header_nav {
+    background-color: rgb(255, 81, 0);
+    padding: 0.5em 1em;
+    list-style: none;
+    display: none;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.header_nav li {
+    margin: 10px;
+}
+.header_nav a {
+    text-decoration: none;
+    color: white;
+}
+.menuboton{
+    background-color: rgb(79, 77, 77);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.menuboton:hover{
+    background-color: rgb(255, 81, 0);
+}
+
+/* Seccion 5 */
+
+.section05{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 0 50px;
+}
+.section05__title{
+    position: absolute;
+    font-size: 30px;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*card 01 mobile*/
+
+.card01, .card02, .card03, .card04, .card05, .card06, .card07{
+    margin-top: 90px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.musculacionimg, .funcionalimg, .aeroboximg, .aerobicimg, .kickboxingimg, .boxeoimg, .mmaimg {
+    width: 65vh;
+}
+.card01__title, .card02__title, .card03__title, .card04__title, .card05__title, .card06__title, .card07__title{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+.card01__text, .card02__text, .card03__text, .card04__text, .card05__text, .card06__text, .card07__text{
+    font-size: 15px;
+    margin: 20px;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
